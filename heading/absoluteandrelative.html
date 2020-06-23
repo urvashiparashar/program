@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>elements positioning</title>
+<style>
+	*
+		{
+			box-sizing: border-box;
+		}
+		div
+		{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		h1
+		{
+			margin-bottom: 15px;
+		}
+		div#container
+		{
+			background-color: #00FFFF;
+			position: relative;
+			top:60px;
+		}
+
+		p
+		{
+			width: 30px;
+			/*border:1px solid black;*/
+			height: 50px;
+			border: 1px solid black;
+			margin-bottom: 15px;
+		}
+		#p1
+		{
+			background-color: #A52A2A;
+		}
+		#p2
+		{
+			background-color: #DE8887;
+		}
+		#p3
+		{
+			background-color: #DE8887;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		#p4
+		{
+			background-color: #DE8887;
+		}
+		
+		
+</style>
+</head>
+<body>
+<h1>positioning elements</h1>
+	<div id="container">
+		<p id="p1"></p>
+		<p id="p2"></p>
+		<p id="p3"></p>
+		<p id="p4"></p>
+		
+	</div>
+</body>
+</html>
